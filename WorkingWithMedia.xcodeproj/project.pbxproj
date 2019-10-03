@@ -16,6 +16,7 @@
 		7E074ECA2344D4EF00FEC092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E074EC82344D4EF00FEC092 /* LaunchScreen.storyboard */; };
 		7E074ED52344D4EF00FEC092 /* WorkingWithMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074ED42344D4EF00FEC092 /* WorkingWithMediaTests.swift */; };
 		7E074EE02344D4EF00FEC092 /* WorkingWithMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074EDF2344D4EF00FEC092 /* WorkingWithMediaUITests.swift */; };
+		7E074EEE2344E6A500FEC092 /* AudioRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074EED2344E6A500FEC092 /* AudioRecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7E074EDB2344D4EF00FEC092 /* WorkingWithMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E074EDF2344D4EF00FEC092 /* WorkingWithMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithMediaUITests.swift; sourceTree = "<group>"; };
 		7E074EE12344D4EF00FEC092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E074EED2344E6A500FEC092 /* AudioRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				7E074EC82344D4EF00FEC092 /* LaunchScreen.storyboard */,
 				7E074ECB2344D4EF00FEC092 /* Info.plist */,
 				7E074EC32344D4EE00FEC092 /* WorkingWithMedia.xcdatamodeld */,
+				7E074EED2344E6A500FEC092 /* AudioRecordViewController.swift */,
 			);
 			path = WorkingWithMedia;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E074EEE2344E6A500FEC092 /* AudioRecordViewController.swift in Sources */,
 				7E074EBF2344D4EE00FEC092 /* ViewController.swift in Sources */,
 				7E074EBB2344D4EE00FEC092 /* AppDelegate.swift in Sources */,
 				7E074EC52344D4EE00FEC092 /* WorkingWithMedia.xcdatamodeld in Sources */,
@@ -439,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUJC34M824;
 				INFOPLIST_FILE = WorkingWithMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUJC34M824;
 				INFOPLIST_FILE = WorkingWithMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
